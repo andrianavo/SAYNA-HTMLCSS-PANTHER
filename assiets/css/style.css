@@ -98,15 +98,19 @@ a {
 #en-tête .enigme-style{
 	font-family: BEYNO Regular;
 }
+#en-tête .index.html{
+	font-family:  cantarell;
+
+}
 h1{
 	font-family: panthera;
 	font-size: 4em;
-	color: violet; 
+	color: #9E91B7; 
 }
 h2{
 	font-family: BEYNO Regular;
 	font-size: 3em;
-	color: blue;
+	color: violet;
 }
 h4{
 	font-family: cantarell;
