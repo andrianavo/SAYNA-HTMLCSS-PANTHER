@@ -27,6 +27,9 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+    animation-name: fade-in;
+    animation-duration: 5s;
+
 }
 /*reseaux sociaux*/
 .left{
@@ -88,9 +91,14 @@ header nav ul li :hover{
 a {
 	color: white;
 }
+/* en tête */
 #en-tête .logo{
 	padding-top: 5%;
 	padding-left: 15%;
+}
+#en-tête .logo :hover{
+    transform: scale(1.2);
+
 }
 #en-tête .wakanda-style{
 	font-family: BEYNO Regular;
@@ -378,6 +386,26 @@ footer p {
 .copyright {
     grid-column: span 2;
 }
+section * {
+    animation-name: fade-in;
+    animation-duration: 5s;
+}
+.reseaux li:hover{
+    transform: scale(1.2);
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0%;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateX(0px); 
+    }
+}
+
+
 
 
 
